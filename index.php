@@ -3,7 +3,7 @@
   <title>Database Test</title>
  </head>
  <body>
- <?php echo '<p>Hello Thong Cute</p>'; 
+ <?php echo '<p>Hello. This is First Cloud App</p>'; 
  
  ?> 
      <a href="ConnectToDB.php" target="_blank" >Connect database</a>
