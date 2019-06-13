@@ -5,7 +5,7 @@
  <body>
  	<style type="text/css" media="screen">
  		#anhthay{
-			width:50%;
+			width:10%;
  		}
  	</style>
  <?php echo '<p>Hello. This is Cloud App</p>'; 
