@@ -7,8 +7,8 @@
  		.anhthay{
 			width:20%;
 			position: relative;
-			bottom: 170px;
-			left:300px;
+			bottom: 210px;
+			left:500px;
  		}
  	</style>
  <?php echo '<p>Hello. This is Cloud App</p>'; 
