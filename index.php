@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Cloud Computing</title>
+  <title>LAB 1</title>
  </head>
  <body>
  	<style type="text/css" media="screen">
