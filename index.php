@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Database Test</title>
+  <title>Cloud Computing</title>
  </head>
  <body>
  	<style type="text/css" media="screen">
