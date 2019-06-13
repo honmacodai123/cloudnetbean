@@ -8,11 +8,11 @@
 			width:20%;
 			position: relative;
 			bottom: 230px;
-			left:530px;
+			left:550px;
  		}
  		#Mot{
  			position: relative;
- 			bottom: 120px;
+ 			bottom: 140px;
  		}
  	</style>
  	<h1>Hello Teacher! This is my Cloud App!</h1>
