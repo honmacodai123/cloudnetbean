@@ -4,7 +4,7 @@
  </head>
  <body>
  	<style type="text/css" media="screen">
- 		#anhthay{
+ 		.anhthay{
 			width:10%;
  		}
  	</style>
