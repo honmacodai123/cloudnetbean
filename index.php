@@ -8,7 +8,7 @@
 			width:20%;
 			position: relative;
 			bottom: 170px;
-			left:100px;
+			left:200px;
  		}
  	</style>
  <?php echo '<p>Hello. This is Cloud App</p>'; 
