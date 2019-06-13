@@ -6,6 +6,8 @@
  	<style type="text/css" media="screen">
  		.anhthay{
 			width:30%;
+			position: relative;
+			bottom: 50px;
  		}
  	</style>
  <?php echo '<p>Hello. This is Cloud App</p>'; 
