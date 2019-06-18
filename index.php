@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>LAB 1</title>
+  <title>ASM1</title>
  </head>
  <body>
  	<style type="text/css" media="screen">
