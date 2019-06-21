@@ -28,7 +28,8 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = " UPDATE student SET fname = :name, '
+//$sql = 'UPDATE student '
+//                . 'SET name = :name, '
 //                . 'WHERE ID = :id';
 // 
 //      $stmt = $pdo->prepare($sql);
