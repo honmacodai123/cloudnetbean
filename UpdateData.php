@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>INSERT DATA TO DATABASE</h1>
+<h1>Update DATA TO DATABASE</h1>
 <ul>
     <form name="UpdateData" action="UpdateData.php" method="POST" >
 <li>Student ID:</li><li><input type="text" name="stuid" /></li>
