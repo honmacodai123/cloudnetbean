@@ -50,7 +50,7 @@ if (empty(getenv("DATABASE_URL"))){
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "UPDATE student SET fname = $_POST[fname] WHERE stuid = 'SV02'";
+$sql = "UPDATE student SET fname = $_POST[fname] WHERE stuid = '1'";
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record updated successfully.";
