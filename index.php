@@ -15,7 +15,7 @@
  			bottom: 140px;
  		}
  	</style>
- 	<h1>Hello Teacher! This is my Cloud App!</h1>
+ 	<h1>Hello Teacher!!</h1>
  	<h2>My Name Is Thong</h2>
  	<h2>Full Name: Nguyen Quang Thong</h2>
  	<h2>ID: GCD17150</h2>
