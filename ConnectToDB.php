@@ -5,8 +5,8 @@
 <h1>DATABASE CONNECTION</h1>
 
 <?php
-ini_set('display_errors', 1);
-echo "Thong";
+//ini_set('display_errors', 1);
+//echo "Thong";
 ?>
 
 <?php
@@ -36,6 +36,7 @@ $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
 echo '<p>Students information:</p>';
+echo "<table>";
 foreach ($resultSet as $row) {
 	echo $row['stuid'];
         echo "    ";
@@ -46,7 +47,7 @@ foreach ($resultSet as $row) {
         echo $row['classname'];
         echo "<br/>";
 }
-
+echo "</table>";
 ?>
 </body>
 </html>
