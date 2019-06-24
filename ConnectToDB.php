@@ -23,6 +23,8 @@ if (empty(getenv("DATABASE_URL"))){
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
 }  else {
      echo '<p>The DB exists</p>';
+     echo "<br/>";
+     echo '<p>Student Information</p>';
      echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
