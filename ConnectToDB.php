@@ -39,8 +39,9 @@ echo "<table >";
 echo "<tr>";
 echo '<p>Students information:</p>';
 foreach ($resultSet as $row) {
+    //Echo Student ID
     echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
-    echo "Stuid";
+    echo "Student ID";
     echo "</td>";
 
     echo "<tr>";
@@ -49,18 +50,32 @@ foreach ($resultSet as $row) {
     echo "   ";
     echo "</td>";
 
+    //Echo Full Name
+    echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
+            echo "Full Name";
+            echo "</td>";
+
     echo "<tr>";
     echo "<td style='border=1px solid black'>";
     echo $row['fname'];
     echo "    ";
     echo "</td>";
 
+    //Echo Email
+    echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
+            echo "Email";
+            echo "</td>";
     echo "<tr>";
     echo "<td style='border=1px solid black'>";
     echo $row['email'];
     echo "    ";
     echo "</td>";
 
+    //Echo Classname
+     echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
+            echo "Classname";
+            echo "</td>";
+            
     echo "<tr>";
     echo "<td style='border=1px solid black'>";  
     echo $row['classname'];
