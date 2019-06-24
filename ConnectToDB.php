@@ -40,7 +40,7 @@ foreach ($resultSet as $row) {
     echo "<tr>";
     echo "<td style='border=1px solid black'>";
 	echo $row['stuid'];
-        echo "   ";
+    echo "   ";
     echo "</td>";
         echo $row['fname'];
         echo "    ";
