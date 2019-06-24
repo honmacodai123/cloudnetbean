@@ -36,10 +36,12 @@ $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
 echo '<p>Students information:</p>';
-echo "<table>";
 foreach ($resultSet as $row) {
+    echo "<tr>";
+    echo "<td style='border=1px solid black'>";
 	echo $row['stuid'];
-        echo "    ";
+        echo "   ";
+    echo "</td>";
         echo $row['fname'];
         echo "    ";
         echo $row['email'];
@@ -47,7 +49,6 @@ foreach ($resultSet as $row) {
         echo $row['classname'];
         echo "<br/>";
 }
-echo "</table>";
 ?>
 </body>
 </html>
