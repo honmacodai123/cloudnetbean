@@ -5,8 +5,8 @@
 <h1>INSERT DATA TO DATABASE</h1>
 
 <?php
-ini_set('display_errors', 1);
-echo "Insert database!";
+//ini_set('display_errors', 1);
+//echo "Insert database!";
 ?>
 
 <?php
@@ -28,7 +28,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "DELETE student SET fname = '$_POST[fname]' WHERE stuid = '$_POST[stuid]'";
+$sql = "DELETE FROM student WHERE stuid = '$_POST[stuid]'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record deleted successfully.";
