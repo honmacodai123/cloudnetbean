@@ -30,6 +30,7 @@
      <a href="UpdateData.php" target="_blank" >Update data to the database</a> 
     <br/>
     <a href="DeleteData.php" target="_blank" >Delete data to the database</a> 
+    <a href="WebDesign.php" target="_blank" >Web Design</a> 
 	</section>
  </body>
 </html>
