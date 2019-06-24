@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
+<style>
+    {
+
+    }
+</style>
 
 <h1>DATABASE CONNECTION</h1>
+
 
 <?php
 //ini_set('display_errors', 1);
@@ -39,7 +45,7 @@ $resultSet = $stmt->fetchAll();
             echo "<tr>";
 
             // printing table headers with desired column names
-            echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
+            echo "<td style='border:1px solid black ;Font-size:18;Font-Weight:bold'>";
             echo "Student ID";
             echo "</td>";
             echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
