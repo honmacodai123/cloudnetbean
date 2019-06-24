@@ -45,7 +45,7 @@ $resultSet = $stmt->fetchAll();
             echo "<tr>";
 
             // printing table headers with desired column names
-            echo "<td style='border:1px solid black ;Font-size:18;Font-Weight:bold'>";
+            echo "<td style='border:1px solid black ;Font-size:18;background-color:red;Font-Weight:bold'>";
             echo "Student ID";
             echo "</td>";
             echo "<td style='border:1px solid black;Font-size:18;Font-Weight:bold'>";
