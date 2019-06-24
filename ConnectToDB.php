@@ -75,11 +75,13 @@ foreach ($resultSet as $row) {
      echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
             echo "Classname";
             echo "</td>";
-            
+
     echo "<tr>";
     echo "<td style='border=1px solid black'>";  
     echo $row['classname'];
     echo "    ";
+    echo "</tr>";
+    echo "</td>";
     echo "</td>";
     echo "</tr>\n";
  
