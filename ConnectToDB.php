@@ -35,6 +35,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
+echo "<table >";
 echo '<p>Students information:</p>';
 foreach ($resultSet as $row) {
     echo "<tr>";
@@ -49,6 +50,7 @@ foreach ($resultSet as $row) {
         echo $row['classname'];
         echo "<br/>";
 }
+echo "</table>";
 ?>
 </body>
 </html>
