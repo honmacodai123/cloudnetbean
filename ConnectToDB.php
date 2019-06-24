@@ -36,8 +36,13 @@ $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
 echo "<table >";
+echo "<tr>";
 echo '<p>Students information:</p>';
 foreach ($resultSet as $row) {
+    echo "<td style='border=1px solid black;Font-size=18;Font-Weight=bold'>";
+    echo "Stuid";
+    echo "</td>";
+
     echo "<tr>";
     echo "<td style='border=1px solid black'>";
 	echo $row['stuid'];
@@ -61,6 +66,8 @@ foreach ($resultSet as $row) {
     echo $row['classname'];
     echo "    ";
     echo "</td>";
+    echo "</tr>\n";
+ 
 }
 echo "</table>";
 ?>
