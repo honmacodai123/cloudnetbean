@@ -43,12 +43,24 @@ foreach ($resultSet as $row) {
 	echo $row['stuid'];
     echo "   ";
     echo "</td>";
-        echo $row['fname'];
-        echo "    ";
-        echo $row['email'];
-        echo "    ";
-        echo $row['classname'];
-        echo "<br/>";
+
+    echo "<tr>";
+    echo "<td style='border=1px solid black'>";
+    echo $row['fname'];
+    echo "    ";
+    echo "</td>";
+
+    echo "<tr>";
+    echo "<td style='border=1px solid black'>";
+    echo $row['email'];
+    echo "    ";
+    echo "</td>";
+
+    echo "<tr>";
+    echo "<td style='border=1px solid black'>";  
+    echo $row['classname'];
+    echo "    ";
+    echo "</td>";
 }
 echo "</table>";
 ?>
