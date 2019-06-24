@@ -28,7 +28,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "DELETE FROM student WHERE stuid = 'SV02'";
+$sql = "DELETE FROM student WHERE stuid = '$_POST[stuid]'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record deleted successfully.";
