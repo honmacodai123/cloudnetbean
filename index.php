@@ -41,14 +41,14 @@ tr:nth-child(even) {
     <table>
     <tr>
  	
-    <th><a href="ConnectToDB.php" target="_blank" >Connect database</a></th>
+    <th><a href="ConnectToDB.php" target="_blank" >View Database</a></th>
     
 
-    <th><a href="InsertData.php" target="_blank" >Insert data to the database</a></th>
+    <th><a href="InsertData.php" target="_blank" >Insert Database</a></th>
      
-    <th><a href="UpdateData.php" target="_blank" >Update data to the database</a> </th>
+    <th><a href="UpdateData.php" target="_blank" >Update Database</a> </th>
     
-    <th><a href="DeleteData.php" target="_blank" >Delete data to the database</a></th>
+    <th><a href="DeleteData.php" target="_blank" >Delete Database</a></th>
 
     <th><a href="WebDesign.php" target="_blank" >Web Design</a></th>
     </tr>
