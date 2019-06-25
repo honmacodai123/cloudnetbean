@@ -18,7 +18,7 @@ list-style: none;
 <li>Full Name:</li><li><input type="text" name="fname" /></li>
 <li>Email:</li><li><input type="text" name="email" /></li>
 <li>Class:</li><li><input type="text" name="classname" /></li>
-<li><input type="submit" />Insert</li>
+<li><input type="submit" value="Insert" /></li>
 </form>
 </ul>
 
