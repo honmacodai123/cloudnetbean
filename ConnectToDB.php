@@ -7,7 +7,7 @@
     }
 </style>
 
-<h1>DATABASE CONNECTION</h1>
+<h1>VIEW DATABASE</h1>
 
 
 <?php
