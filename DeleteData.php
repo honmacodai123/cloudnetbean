@@ -2,12 +2,12 @@
 <html>
 <body>
 
-<h1>DELETE DATA TO DATABASE</h1>
+<h1>DELETE DATABASE</h1>
 <ul>
     <form name="DeleteData" action="DeleteData.php" method="POST" >
 <li>Student ID:</li><li><input type="text" name="stuid" /></li>
 
-<li><input type="submit" /></li>
+<li><input type="submit" />Delete</li>
 </form>
 </ul>
 
